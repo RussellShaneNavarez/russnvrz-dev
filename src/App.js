@@ -6,6 +6,7 @@ import { Experiences } from './pages/Experiences';
 import { Education } from './pages/Education';
 import { Certificates } from './pages/Certificates';
 import { Contact } from './pages/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
