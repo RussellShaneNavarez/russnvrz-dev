@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import '../styles/navbar.css'
+import '../styles/Navbar.css'
 
 export const Navbar = () => {
     const [isBlurred, setIsBlurred] = useState(false);

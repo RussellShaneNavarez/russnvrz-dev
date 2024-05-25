@@ -2,7 +2,7 @@ import { useState, useEffect} from 'react'
 
 import { Navbar } from '../components/Navbar';
 
-import '../styles/home.css'
+import '../styles/Home.css'
 
 export const Home = () => {
     const objects = ["Full Stack Developer", "Software Architect", "Photographer"];
