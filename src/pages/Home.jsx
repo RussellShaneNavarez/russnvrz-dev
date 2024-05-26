@@ -1,5 +1,4 @@
-import { useState, useEffect} from 'react'
-
+import { useState, useEffect} from 'react';
 import { Navbar } from '../components/Navbar';
 
 import '../styles/Home.css'
@@ -20,14 +19,12 @@ export const Home = () => {
         <>
         <Navbar></Navbar>
         <div class="bg text-lg font-bold text-white">
-            <div className='name'>
+            <div class='name'>
                 <h1>Hi. I'm Russell.</h1>
-                <h2>{objects[currentIndex]}</h2>
+                <h2>{objects[currentIndex]}.</h2>
             </div>
             
         </div>
-
-
         <div className='container'>
            <p>Roboto</p>
            <p>Roboto</p>

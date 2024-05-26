@@ -1,8 +1,4 @@
-.navbar {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+nav {
     
+    position: fixed;
 }

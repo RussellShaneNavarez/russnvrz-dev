@@ -1,35 +1,15 @@
-import { useState, useEffect } from 'react';
-
-import '../styles/Navbar.css'
+import '../styles/Navbar.css';
 
 export const Navbar = () => {
-    const [isBlurred, setIsBlurred] = useState(false);
-
-    const handleScroll = () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        setIsBlurred(scrollTop > 0);
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-        window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    return (
-        <>
-       
-            <nav className={`navbar ${isBlurred ? 'backdrop-blur-sm' : ''}`}>
-            <div className=" md:flex space-x-4">
-                <a href="#home" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="#about" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
-                <a href="#services" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
-                <a href="#contact" className="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-                </div>
-                Hi
-            </nav>
-          
-        </>
+    return ( 
+    
+            <nav class="flex justify-center space-x-4 items-center w-100"> 
+                <a href="/dashboard" class="font-medium px-3 py-2 text-slate-100  hover:text-sky-950">Home</a>
+                <a href="/team" class="font-medium px-3 py-2 text-slate-100  hover:text-slate-900">Team</a>
+                <a href="/projects" class="font-medium px-3 py-2 text-slate-100  hover:text-slate-900">Projects</a>
+                <a href="/reports" class="font-medium px-3 py-2 text-slate-100 hover:text-slate-900">Reports</a>
+            </nav> 
+      
+         
     )
 }
