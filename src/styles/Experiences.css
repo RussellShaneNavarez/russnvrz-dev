@@ -1,0 +1,68 @@
+.experiences {
+    width: 100vw;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #625B97;
+    color: white;
+}
+
+.exp-container {
+    padding: 5rem 0 0 0;
+}
+
+.exp-container p {
+    font-size: 1.45rem;
+    font-weight:600
+}
+
+.resume {
+    padding: 2rem 0 0 0;
+}
+
+.resume p {
+    font-weight: 400;
+}
+
+.resume-p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.exp-date{
+    border-right: solid 1px rgb(255, 255, 255);
+}
+
+.exp-description p{
+    padding: 1rem 0 0 0;
+    font-size: 1.25rem;
+    font-weight: 400;   
+    font-style: italic; 
+}
+
+.exp-li {
+    padding: 1rem 0 2.5rem 0;
+}
+
+.exp-li li {
+    background-color: white;
+    color: black;
+}
+
+.exp-li li:hover {
+    background-color: black;
+    color: white;
+}
+
+.cv button {
+    background-color: #18435A;
+}
+
+.cv button:hover {
+    background-color: #A9BCD0;
+    color: black;
+}
+

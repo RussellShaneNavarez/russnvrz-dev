@@ -1,0 +1,14 @@
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A9BCD0;
+  }
+
+  .bio img {
+    width: 47.5rem;
+  }
+
+  .bio p {
+    font-size: 1.4rem;
+  }
