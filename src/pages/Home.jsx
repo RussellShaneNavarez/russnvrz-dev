@@ -4,6 +4,7 @@ import { Bio } from '../components/Bio';
 import { Skills } from '../components/Skills';
 import { Experiences } from '../components/Experiences';
 import { WorkTogether } from '../components/WorkTogether';
+import { Footer } from '../components/Footer';
 import '../styles/Home.css'
 
 export const Home = () => {
@@ -43,6 +44,7 @@ export const Home = () => {
         <Skills></Skills>
         <Experiences></Experiences>
         <WorkTogether></WorkTogether>
+        <Footer></Footer>
         </>
     )
 }
