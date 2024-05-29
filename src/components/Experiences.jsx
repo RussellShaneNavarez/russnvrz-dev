@@ -20,7 +20,7 @@ export const Experiences = () => {
                             <p>SOFTWARE DEVELOPER</p>
                             <p>|</p>
                             <a href="https://www.vantea.com/">
-                                <p class='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:underline'>Vantea SMART</p>
+                                <p class='underline-hover'>Vantea SMART</p>
                             </a>
                         </div>
                         <div className='exp-description flex'>
@@ -48,7 +48,7 @@ export const Experiences = () => {
                             <p>ICE CREAM SCOOPER</p>
                             <p>|</p>
                             <a href="https://www.gromgelato.com/it/it/home.html">
-                                <p class='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:underline'>Grom</p>
+                                <p class='underline-hover'>Grom</p>
                             </a>
                         </div>
                         <div className='exp-description flex'>
@@ -75,7 +75,7 @@ export const Experiences = () => {
                             <p>MARKETING ASSISTANT</p>
                             <p>|</p>
                             <a href="https://vargas.it/">
-                                <p class='transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300 hover:underline'>Vargas S.r.l.</p>
+                                <p class='underline-hover'>Vargas S.r.l.</p>
                             </a>
                         </div>
                         <div className='exp-description flex'>
@@ -92,8 +92,7 @@ export const Experiences = () => {
                         </div>
                     </div>
                 </div>
-                <div className='resume flex flex-col justify-center items-center'>
-                    <p class='resume-p text-lg italic py-4'>You can view my certifications & more on my resumé!</p>
+                <div className='resume flex flex-col justify-center items-center'>\
                     <div className="cv">
                         <button type="button" className='px-5 py-2 font-semibold text-lg rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300' onClick={openPdf}>
                             Resumé

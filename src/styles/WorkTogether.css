@@ -1,0 +1,34 @@
+.worktogether {
+    width: 100vw;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .social {
+    width: 10rem;
+  }
+
+  .social-cont {
+    padding-top: 4.5rem;
+  }
+
+  .underline-hover {
+    position: relative;
+}
+
+.underline-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.3s ease;
+}
+
+a:hover .underline-hover::after {
+    width: 100%;
+}

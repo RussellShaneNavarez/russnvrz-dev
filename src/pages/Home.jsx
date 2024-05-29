@@ -1,9 +1,9 @@
 import { useState, useEffect} from 'react';
-
 import { Projects } from '../components/Projects';
 import { Bio } from '../components/Bio';
 import { Skills } from '../components/Skills';
 import { Experiences } from '../components/Experiences';
+import { WorkTogether } from '../components/WorkTogether';
 import '../styles/Home.css'
 
 export const Home = () => {
@@ -42,6 +42,7 @@ export const Home = () => {
         <Bio></Bio>
         <Skills></Skills>
         <Experiences></Experiences>
+        <WorkTogether></WorkTogether>
         </>
     )
 }
