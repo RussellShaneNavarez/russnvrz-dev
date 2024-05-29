@@ -5,6 +5,7 @@ import { Skills } from '../components/Skills';
 import { Experiences } from '../components/Experiences';
 import { WorkTogether } from '../components/WorkTogether';
 import { Footer } from '../components/Footer';
+import { DarkLang } from '../components/DarkLang';
 import '../styles/Home.css'
 
 export const Home = () => {
@@ -45,6 +46,7 @@ export const Home = () => {
         <Experiences></Experiences>
         <WorkTogether></WorkTogether>
         <Footer></Footer>
+        <DarkLang></DarkLang>
         </>
     )
 }

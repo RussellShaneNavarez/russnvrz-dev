@@ -1,0 +1,23 @@
+.button-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;  
+    gap: 0.5rem;
+    height: 2.5rem;
+    
+}
+
+.btn {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #18435A;
+    border: none;
+    border-radius: 0.5rem;
+    width: 45px;
+}
+
+.btn:hover {
+    background-color: #A9BCD0;
+    color: black;
+}
