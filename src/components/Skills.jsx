@@ -17,12 +17,14 @@ import spring from '../assets/svg/spring.svg'
 import swift from '../assets/svg/swift.svg'
 import tailwind from '../assets/svg/tailwind-css.svg'
 import vue from '../assets/svg/vue.svg'
+import { useTranslation } from 'react-i18next';
 
 export const Skills = () => {
+    const { t } = useTranslation();
     return (
         <div class='container skills'>
-            <h2 className="text-7xl">Skills</h2>
-            <p class='text-xl py-3 '>Problem Solving is what I do!</p>
+            <h2 className="text-7xl">{t("skills")}</h2>
+            <p class='text-xl py-3 '>{t("skilltext")}</p>
             <div className='skill-icons flex flex-wrap justify-center items-center gap-4 py-3 px-5 '>
                 <div class='skill p-3 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={html} alt="Skill" />
@@ -99,7 +101,7 @@ export const Skills = () => {
             </div>
             <div className='see-more p-6 '>
                 <a href="https://github.com/RussellShaneNavarez">
-                    <button class="p-2 font-semibold transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">See more</button>
+                    <button class="p-2 font-semibold transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">{t("skillbtn")}</button>
                 </a>
             </div>
         </div>

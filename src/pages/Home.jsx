@@ -5,11 +5,14 @@ import { Skills } from '../components/Skills';
 import { Experiences } from '../components/Experiences';
 import { WorkTogether } from '../components/WorkTogether';
 import { Footer } from '../components/Footer';
-import { DarkLang } from '../components/DarkLang';
+import { Language } from '../components/Language';
 import '../styles/Home.css'
+import { useTranslation } from 'react-i18next';
 
 export const Home = () => {
-    const objects = ["Full Stack Developer", "Software Architect", "Photographer"];
+    const { t } = useTranslation();
+
+    const objects = [t("fsd"), t("sa"), t("photo")];
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isVisible, setIsVisible] = useState(false);
 
@@ -35,7 +38,7 @@ export const Home = () => {
         
         <div class="bg text-lg font-bold text-white">
                 <div className={`name transform transition-transform duration-1000 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-                    <h1>Hi. I'm Russell.</h1>
+                    <h1>{t("title")}</h1>
                     <h2>{objects[currentIndex]}.</h2>
                 </div>
             
@@ -46,7 +49,7 @@ export const Home = () => {
         <Experiences></Experiences>
         <WorkTogether></WorkTogether>
         <Footer></Footer>
-        <DarkLang></DarkLang>
+        <Language></Language>
         </>
     )
 }
