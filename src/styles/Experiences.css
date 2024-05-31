@@ -1,5 +1,5 @@
 .experiences {
-    width: 100vw;
+    width: 100%;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,28 @@
     color: white;
 }
 
+.experiences h2 {
+    font-size: 4.5rem;
+    padding: 0 7rem;
+}
+
+.experience {
+    width: 60%;
+    gap: 1.25rem
+}
+
+.exp-job {
+    width: 60%;
+    gap: 0.5rem
+}
+
+.exp-title {
+    gap: 0.5rem
+}
+
 .exp-container {
     padding: 5rem 0 0 0;
+    width: 100%;
 }
 
 .exp-container p {
@@ -34,6 +54,7 @@
 
 .exp-date{
     border-right: solid 1px rgb(255, 255, 255);
+    width: 40%;
 }
 
 .exp-description p{
@@ -45,11 +66,13 @@
 
 .exp-li {
     padding: 1rem 0 2.5rem 0;
+    gap: 0.625rem;
 }
 
 .exp-li li {
     background-color: white;
     color: black;
+    padding: 0.5rem 0.75rem;
 }
 
 .exp-li li:hover {
@@ -59,6 +82,7 @@
 
 .cv button {
     background-color: #18435A;
+    padding: 0.5rem 1.25rem;
 }
 
 .cv button:hover {
@@ -66,3 +90,126 @@
     color: black;
 }
 
+@media (max-width: 767px) {
+    .experiences {
+      padding: 2rem 0;
+    }
+  
+    .experiences h2 {
+      font-size: 2.5rem;
+      padding: 0;
+    }
+  
+    .experiences p {
+      font-size: 0.8rem;
+    }   
+
+    .exp-container {
+        padding: 1rem 0;
+    }
+
+    .exp-job {
+        width: 80%;
+    }
+
+    .exp-description p {
+        padding: 0;
+    }
+
+    .experience {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .exp-date {
+        width: 23%;
+        border: none;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 0 0 0 1rem;
+    }
+
+    .exp-date p {
+        font-size: 0.75rem;
+    }
+    .exp-li {
+        padding: 0 0 1.5rem 0;
+    }
+    .exp-li li {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .resume {
+        padding: 0;
+    }
+
+    .cv button {
+        width: 6rem;
+        font-size: 1rem;
+        padding: 0.25rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .experiences {
+        padding: 2rem 0;
+      }
+    
+      .experiences h2 {
+        font-size: 3.5rem;
+        padding: 0;
+      }
+    
+      .experiences p {
+        font-size: 1rem;
+      }   
+  
+      .exp-container {
+          padding: 1.5rem 0;
+      }
+  
+      .exp-job {
+          width: 70%;
+      }
+  
+      .exp-description p {
+          padding: 1rem 0;
+      }
+  
+      .experience {
+          width: 100%;
+          font-size: 1rem;
+      }
+  
+      .exp-date {
+          width: 23%;
+          border: none;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          padding: 0 0 0 1rem;
+      }
+  
+      .exp-date p {
+          font-size: 1rem;
+      }
+      .exp-li {
+          padding: 0 0 2rem 0;
+      }
+      .exp-li li {
+          padding: 0.5rem;
+          font-size: 0.8rem;
+      }
+  
+      .resume {
+          padding: 0;
+      }
+  
+      .cv button {
+          width: 6rem;
+          font-size: 1rem;
+          padding: 0.25rem;
+      }
+  }

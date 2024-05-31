@@ -35,7 +35,6 @@ export const Home = () => {
 
     return (
         <>
-        
         <div class="bg text-lg font-bold text-white">
                 <div className={`name transform transition-transform duration-1000 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
                     <h1>{t("title")}</h1>

@@ -1,9 +1,18 @@
 .skills {
-    width: 100vw;
+    width: 100%;
     padding: 5rem 6rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .skills h2 {
+    font-size: 4.5rem;
+  }
+
+  .skills p {
+    font-size: 1.25rem;
+    padding: 0.75rem 0;
   }
 
   .skills h2, p {
@@ -21,6 +30,7 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center; 
+    padding: 0.75rem;
 }
 
 .skill:hover {
@@ -34,6 +44,8 @@
 
 .skill-icons {
   width: 100%;
+  gap: 1rem;
+  padding: 1.25rem 0.75rem;
 }
 
 .skill img {
@@ -45,6 +57,7 @@
 
 .see-more {
   text-align: center;
+  padding: 1.5rem;
 }
 
 .see-more button {
@@ -52,9 +65,92 @@
   border-radius: 1rem;
   width: 10rem;
   font-size: 1.25rem;
+  padding: 0.75rem;
 }
 
 .see-more button:hover {
   background-color: #18435A;
   color: white;
+}
+
+@media (max-width: 767px) {
+  .skills {
+    padding: 2rem 0;
+  }
+
+  .skills h2 {
+    font-size: 2.5rem;
+  }
+
+  .skills p {
+    font-size: 1rem;
+  }
+
+  .skill {
+    height: 4rem;
+    width: 6rem;
+    place-items: center;
+  }
+
+  .skill img {
+    width: 3.5rem;
+    height: 2rem;
+  }
+
+  .skill p {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+  }
+
+  .skill-icons {
+    padding: 0.25rem;
+  }
+
+  .see-more button {
+    width: 6rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skills {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .skills h2 {
+    font-size: 3.5rem;
+    padding: 0;
+  }
+
+  .skills p {
+    font-size: 1rem;
+  }
+
+  .skill {
+    height: 6rem;
+    width: 8rem;
+    place-items: center;
+  }
+
+  .skill img {
+    width: 5rem;
+    height: 3rem;
+  }
+
+  .skill p {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+  }
+
+  .skill-icons {
+    padding: 0.25rem;
+  }
+
+  .see-more button {
+    width: 6rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }

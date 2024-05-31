@@ -10,10 +10,10 @@ export const Projects = () => {
     return (
         <>
           <div className="container projects">
-            <h2 className="text-7xl px-28">{t("projects")}</h2>
+            <h2>{t("projects")}</h2>
 
-            <div className="flex flex-wrap items-center justify-center py-12 px-20 gap-16">
-              <p className="text-9xl">&lt;&lt;</p>
+            <div className="flex flex-wrap proj-container items-center justify-center">
+              <p>&lt;&lt;</p>
 
               <div className="image-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a href="https://github.com/RussellShaneNavarez/russnvrz-dev" className="block w-full h-full">
@@ -28,12 +28,12 @@ export const Projects = () => {
                 <a href="https://github.com/RussellShaneNavarez/RSNWeather" className="block w-full h-full">
                   <img src={image2} alt="RSNWeather" />
                   <div className="overlay">
-                    <p className="overlay-text">{t("pj2")}</p>
+                    <span className="overlay-text">{t("pj2")}</span>
                   </div>
                 </a>
               </div>
 
-            <div className="flex flex-wrap items-center justify-center py-2 px-20 gap-16">
+            <div className="flex flex-wrap proj-container2 items-center justify-center">
 
               <div className="image-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a href="https://github.com/RussellShaneNavarez/LazadaRSN" className="block w-full h-full">
@@ -56,7 +56,7 @@ export const Projects = () => {
               <a href="https://github.com/RussellShaneNavarez">
                 <div className='github transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                   <span className='text-xl font-bold underline-hover'>{t("gh")}</span>
-                  <p className="text-9xl">&gt;&gt;</p>
+                  <p >&gt;&gt;</p>
                 </div>
               </a>
             </div>

@@ -5,6 +5,11 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+  .projects h2 {
+    font-size: 4.5rem;
+    padding: 0 7rem;
+  }
   
   .image-container {
     position: relative;
@@ -44,6 +49,82 @@
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
+  }
+
+  .proj-container {
+    padding: 3rem 5rem;
+    gap: 4rem
+  }
+
+  .proj-container p {
+    font-size: 8rem;
+  }
+
+  .proj-container2 {
+    padding: 0.5rem 5rem;
+    gap: 4rem
+  }
+
+  @media (max-width: 767px) {
+    .projects {
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .projects h2 {
+      font-size: 2.5rem;
+      padding: 0;
+    }
+
+    .projects p {
+      display: none;
+    }
+
+    .proj-container {
+      padding: 2rem 0;
+      gap: 1rem
+    }
+
+    .proj-container2 {
+      padding: 0;
+      gap: 1rem;
+    }
+
+    .image-container {
+      width: 15rem;
+      height: 10rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .projects {
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .projects h2 {
+      font-size: 3.5rem;
+      padding: 0;
+    }
+
+    .projects p {
+      display: none;
+    }
+
+    .proj-container {
+      padding: 2rem 0;
+      gap: 1rem
+    }
+
+    .proj-container2 {
+      padding: 0;
+      gap: 1rem;
+    }
+
+    .image-container {
+      width: 20rem;
+      height: 12rem;
+    }
   }
 
   
