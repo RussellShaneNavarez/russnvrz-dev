@@ -32,6 +32,7 @@ export const Projects = () => {
                   </div>
                 </a>
               </div>
+              </div>
 
             <div className="flex flex-wrap proj-container2 items-center justify-center">
 
@@ -52,15 +53,15 @@ export const Projects = () => {
                   </div>
                 </a>
               </div>
-
+              
               <a href="https://github.com/RussellShaneNavarez">
                 <div className='github transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                   <span className='text-xl font-bold underline-hover'>{t("gh")}</span>
-                  <p >&gt;&gt;</p>
+                  <p>&gt;&gt;</p>
                 </div>
               </a>
             </div>
-          </div>
+          
         </div>
       </>
     )
