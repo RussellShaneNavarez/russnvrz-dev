@@ -53,7 +53,8 @@ i18n.use(initReactI18next).init({
                 sk14: "Invoices",
                 worktog: "Let's connect!",
                 worktogtext: "I'd love to hear from you! Whether it's a quick hello or a project idea, feel free to drop a message. Let's chat and see what we can create together!",    
-                copyright: "Reproduction, reposting or modification of the content of this site is prohibited."
+                copyright: "Reproduction, reposting or modification of the content of this site is prohibited.",
+                cv: "Download CV"
             }
         },
         it: {
@@ -101,7 +102,8 @@ i18n.use(initReactI18next).init({
                 sk14: "Fatture",
                 worktog: "Connettiamoci!",
                 worktogtext: "Mi piacerebbe sentire la tua opinione! Che si tratti di un saluto veloce o di un'idea di progetto, sentiti libero di lasciare un messaggio. Parliamo e vediamo cosa possiamo creare insieme!",
-                copyright: "È vietata la riproduzione, la ripubblicazione o la modifica del contenuto di questo sito."
+                copyright: "È vietata la riproduzione, la ripubblicazione o la modifica del contenuto di questo sito.",
+                cv: "Scarica CV"
             }
         },
         phl: {
@@ -149,7 +151,8 @@ i18n.use(initReactI18next).init({
                 sk14: "Invoices",  
                 worktog: "Kumonekta tayo!",
                 worktogtext: "Gusto kong marinig mula sa iyo! Mabilis man itong kumusta o ideya sa proyekto, huwag mag-atubiling mag-drop ng mensahe. Mag-chat tayo at tingnan kung ano ang magagawa nating magkasama!",
-                copyright: "Ipinagbabawal ang pagpaparami, pag-repost o pagbabago ng nilalaman ng site na ito."
+                copyright: "Ipinagbabawal ang pagpaparami, pag-repost o pagbabago ng nilalaman ng site na ito.",
+                cv: "Download CV"
             }
         },
     }

@@ -98,7 +98,7 @@ export const Experiences = () => {
                 <div className='resume flex flex-col justify-center items-center'>
                     <div className="cv">
                         <button type="button" className=' font-semibold text-lg rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300' onClick={openPdf}>
-                            Resumé
+                            {t("cv")}
                         </button>
                     </div>
                 </div>
