@@ -17,6 +17,8 @@ import spring from '../assets/svg/spring.svg'
 import swift from '../assets/svg/swift.svg'
 import tailwind from '../assets/svg/tailwind-css.svg'
 import vue from '../assets/svg/vue.svg'
+import nextjs from '../assets/svg/nextjs.svg'
+import typescript from '../assets/svg/typescript-icon.svg'
 import { useTranslation } from 'react-i18next';
 
 export const Skills = () => {
@@ -26,78 +28,77 @@ export const Skills = () => {
             <h2>{t("skills")}</h2>
             <p>{t("skilltext")}</p>
             <div className='skill-icons flex flex-wrap justify-center items-center'>
-                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={html} alt="Skill" />
-                    <p class='font-bold'>HTML</p>
-                </div>
-                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={css} alt="Skill" />
-                    <p class='font-bold'>CSS</p>
-                </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={javascript} alt="Skill" />
                     <p class='font-bold'>Javascript</p>
                 </div>
-                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={bootstrap} alt="Skill" />
-                    <p class='font-bold'>Bootstrap</p>
-                </div>
-                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={tailwind} alt="Skill" />
-                    <p class='font-bold'>Tailwind</p>
-                </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={react} alt="Skill" />
                     <p class='font-bold'>React</p>
                 </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={vue} alt="Skill" />
-                    <p class='font-bold'>Vue</p>
+                    <img src={nextjs} alt="Skill" />
+                    <p class='font-bold'>Next.js</p>
                 </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={angular} alt="Skill" />
-                    <p class='font-bold'>Angular</p>
+                    <img src={typescript} alt="Skill" />
+                    <p class='font-bold'>Typescript</p>
                 </div>
-                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={spring} alt="Skill" />
-                    <p class='font-bold'>Spring</p>
-                </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={java} alt="Skill" />
                     <p class='font-bold'>Java</p>
                 </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={python} alt="Skill" />
-                    <p class='font-bold'>Python</p>
+                    <img src={spring} alt="Skill" />
+                    <p class='font-bold'>Spring</p>
                 </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={linux} alt="Skill" />
-                    <p class='font-bold'>Linux</p>
+                    <img src={tailwind} alt="Skill" />
+                    <p class='font-bold'>Tailwind</p>
                 </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={swift} alt="Skill" />
-                    <p class='font-bold'>Swift</p>
+                    <img src={bootstrap} alt="Skill" />
+                    <p class='font-bold'>Bootstrap</p>
                 </div>
-                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={androidstudio} alt="Skill" />
-                    <p class='font-bold'>Android</p>
-                </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={firebase} alt="Skill" />
                     <p class='font-bold'>Firebase</p>
                 </div>
+
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={mysql} alt="Skill" />
                     <p class='font-bold'>MySQL</p>
                 </div>
+                
+                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
+                    <img src={html} alt="Skill" />
+                    <p class='font-bold'>HTML</p>
+                </div>
+
+                <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
+                    <img src={css} alt="Skill" />
+                    <p class='font-bold'>CSS</p>
+                </div>
+               
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
                     <img src={figma} alt="Skill" />
                     <p class='font-bold'>Figma</p>
                 </div>
+                
                 <div class='skill transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>
-                    <img src={docker} alt="Skill" />
-                    <p class='font-bold'>Docker</p>
+                    <img src={linux} alt="Skill" />
+                    <p class='font-bold'>Linux</p>
                 </div>
+                               
             </div>
             <div className='see-more'>
                 <a href="https://github.com/RussellShaneNavarez">
