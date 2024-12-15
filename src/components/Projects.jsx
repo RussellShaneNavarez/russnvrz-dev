@@ -10,7 +10,7 @@ export const Projects = () => {
     return (
         <>
           <div className="container projects">
-            <h2>{t("projects")}</h2>
+            <h2>Projects</h2>
 
             <div className="flex flex-wrap proj-container items-center justify-center">
               <p>&lt;&lt;</p>
