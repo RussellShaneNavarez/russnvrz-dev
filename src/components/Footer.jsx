@@ -57,7 +57,6 @@ export const Footer = () => {
               <li class="text-lg font-semibold text-stone-200">Projects</li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <a
-                  target="_blank"
                   href="https://github.com/RussellShaneNavarez/russnvrz-dev"
                 >
                   Portfolio
@@ -65,7 +64,6 @@ export const Footer = () => {
               </li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <a
-                  target="_blank"
                   href="https://github.com/RussellShaneNavarez/SpillProject"
                 >
                   Spill
@@ -73,7 +71,6 @@ export const Footer = () => {
               </li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <a
-                  target="_blank"
                   href="https://github.com/RussellShaneNavarez/Kusinela"
                 >
                   Kusinela
@@ -81,7 +78,6 @@ export const Footer = () => {
               </li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <a
-                  target="_blank"
                   href="https://github.com/RussellShaneNavarez/RSNWeather"
                 >
                   Weather
@@ -92,7 +88,6 @@ export const Footer = () => {
               <li class="text-lg font-semibold text-stone-200">Socials</li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <a
-                  target="_blank"
                   href="https://www.linkedin.com/in/russell-shane-navarez/"
                 >
                   LinkedIn
@@ -100,14 +95,13 @@ export const Footer = () => {
               </li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <a
-                  target="_blank"
                   href="https://github.com/RussellShaneNavarez"
                 >
                   Github
                 </a>
               </li>
               <li class="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <a target="_blank" href="https://www.instagram.com/russnvrz/">
+                <a href="https://www.instagram.com/russnvrz/">
                   Instagram
                 </a>
               </li>
