@@ -19,7 +19,7 @@
   
   &:hover {
     background-color: #343434; 
-  border: solid 0.5px rgb(91, 91, 91);
+    border: solid 0.5px rgb(91, 91, 91);
   }
 
   & h3 {

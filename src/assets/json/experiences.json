@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "title": "Lipari Technology",
+      "content": {
+        "role": "Software Developer",
+        "location": "Milano, MI",
+        "startDate": "Oct 24",
+        "fromDate": "Present",
+        "bps": {
+            "bp1": "MS Graph integration for user data management",
+            "bp2": "Managing the backend with Spring/Java and using MySQL for data storage and retrieval",
+            "bp3": "Developing a user interface in Angular/TypeScript to view and interact with data",
+            "bp4": "Debugging, version control management with Git and Docker"
+        }
+      }
+    },
+    {
+        "id": 2,
+        "title": "Vantea SMART",
+        "content": {
+          "role": "Software Developer",
+          "location": "Milano, MI",
+          "startDate": "Jan 24",
+          "fromDate": "Jun 24",
+          "bps": {
+              "bp1": "Designing IAM solutions: access management and digital identity protection",
+              "bp2": "Development in Java/Spring: Custom authentication and authorization modules",
+              "bp3": "Experience with Angular: Developing interfaces using TypeScript",
+              "bp4": "Using Linux: configuration and maintenance of development environments"
+          }
+        }
+      }
+  ]
+  

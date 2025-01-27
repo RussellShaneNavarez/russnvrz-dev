@@ -1,108 +1,97 @@
-import '../styles/Experiences.css';
-import { useTranslation } from 'react-i18next';
+import { useState } from "react";
+import "../styles/Experiences.css";
+import data from "../assets/json/experiences.json";
 
 export const Experiences = () => {
-    const cv = '/files/cv_navarez.pdf';
+  const [selectedItem, setSelectedItem] = useState(null);
+  const cv = "/files/cv_navarez.pdf";
 
   const openPdf = () => {
-    window.open(cv, '_blank');
+    window.open(cv, "_blank");
   };
 
-  const { t } = useTranslation();
-
-    return (
-        <div class='experiences'>
-            <h2>{t("experiences")}</h2>
-            <div className='exp-container flex flex-wrap flex-col justify-center items-center'>
-                <div className='experience flex'>
-                    <div className='exp-date'>
-                        <p>{t("date1")}</p>
-                    </div>
-                    <div className='exp-job flex flex-col'>
-                        <div className='exp-title flex items-center '>
-                            <p>{t("job1")}</p>
-                            <p>|</p>
-                            <a href="https://www.vantea.com/">
-                                <p class='underline-hover'>{t("company1")}</p>
-                            </a>
-                        </div>
-                        <div className='exp-description flex'>
-                            <p>{t("jobdesc1")}</p>
-                        </div>
-                        <div className='exp-li flex flex-wrap list-none'>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>IAM</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Cyber Security</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>OpenAM</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Linux</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Bash</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Java</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>OpenDJ</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Docker</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Postman</li>
-                        </div>
-                    </div>
-                </div>
-                <div className='experience flex'>
-                    <div className='exp-date'>
-                        <p>{t("date2")}</p>
-                    </div>
-                    <div className='exp-job flex flex-col'>
-                        <div className='exp-title flex items-center '>
-                            <p>{t("job2")}</p>
-                            <p>|</p>
-                            <a href="https://www.gromgelato.com/it/it/home.html">
-                                <p class='underline-hover'>{t("company2")}</p>
-                            </a>
-                        </div>
-                        <div className='exp-description flex'>
-                            <p>{t("jobdesc2")}</p>
-                        </div>
-                        <div className='exp-li flex flex-wrap list-none'>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk1")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk2")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk3")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk4")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk5")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk6")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk7")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk8")}</li>
-                        </div>
-                    </div>
-                </div>
-                <div className='experience flex '>
-                    <div className='exp-date'>
-                        <p>{t("date3")}</p>
-                    </div>
-                    <div className='exp-job flex flex-col'>
-                        <div className='exp-title flex items-center '>
-                            <p>{t("job3")}</p>
-                            <p>|</p>
-                            <a href="https://vargas.it/">
-                                <p class='underline-hover'>{t("company3")}</p>
-                            </a>
-                        </div>
-                        <div className='exp-description flex'>
-                            <p>{t("jobdesc3")}</p>
-                        </div>
-                        <div className='exp-li flex flex-wrap list-none'>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>Microsoft Office</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk9")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk10")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk11")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk12")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk13")}</li>
-                            <li class='font-semibold rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300'>{t("sk14")}</li>
-                        </div>
-                    </div>
-                </div>
-                <div className='resume flex flex-col justify-center items-center'>
-                    <div className="cv">
-                        <button type="button" className=' font-semibold text-lg rounded-xl transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300' onClick={openPdf}>
-                            {t("cv")}
-                        </button>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="experiences w-full">
+      <div className="py-4 sm:py-12 md:py-16 px-8 sm:px-16 md:px-20 lg:px-32">
+        <div className="flex flex-wrap justify-between items-center gap-2">
+          <h2 className="font-bold text-stone-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            Experiences
+          </h2>
+          <button className="cv-btn gap-[0.25rem]" onClick={openPdf}>
+            <p className="font-medium">Download CV</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-chevron-right"
+            >
+              <path d="m9 18 6-6-6-6"></path>
+            </svg>
+          </button>
         </div>
-    )
-}
+
+        <div className="experiences-container w-full py-6 sm:py-12 md:py-16 gap-4 font-medium">
+          <div className="grid grid-cols-3 gap-4 h-screen">
+            {/* Left Column */}
+            <div className="col-span-1 bg-gray-100 rounded-2xl p-4 shadow-md">
+              <ul className="space-y-2">
+                {data.map((data) => (
+                  <li
+                    key={data.id}
+                    onClick={() => setSelectedItem(data)}
+                    className="p-2 cursor-pointer rounded-lg bg-white hover:bg-blue-100 transition"
+                  >
+                    {data.title}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Right Column */}
+            <div className="col-span-2 bg-white rounded-2xl p-4 shadow-md">
+              {selectedItem ? (
+                <div>
+                    <div className="flex items-center gap-2">
+                    <h2 className="text-2xl font-bold mb-2">
+                    {selectedItem.title}
+                  </h2>
+                  <p className="text-gray-500 mb-2">
+                    {selectedItem.content.location}
+                  </p>
+                    </div>
+                  
+                  <p className="text-gray-700 mb-2">
+                    {selectedItem.content.role}
+                  </p>
+                  
+                  <p className="text-gray-400 mb-2">
+                    {selectedItem.content.startDate} - {selectedItem.content.fromDate}
+                  </p>
+                  <div className="space-y-2 mt-4">
+                    {Object.entries(selectedItem.content.bps).map(
+                      ([key, value]) => (
+                        <p key={key} className="text-gray-600">
+                          {value}
+                        </p>
+                      )
+                    )}
+                  </div>
+                </div>
+              ) : (
+                <p className="text-gray-500">
+                  Select an item from the list to view details.
+                </p>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

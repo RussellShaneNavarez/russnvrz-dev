@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Portfolio",
+    "sourceCode": {
+      "text": "</>",
+      "link": "https://github.com/RussellShaneNavarez/russnvrz-dev"
+    },
+    "description": "Portfolio built using React & Tailwind CSS.",
+    "skills": ["React", "JavaScript", "Tailwind", "HTML", "CSS"],
+    "image": "portfolio.png"
+  },
+  {
+    "title": "Kusinela",
+    "sourceCode": {
+      "text": "</>",
+      "link": "https://github.com/RussellShaneNavarez/Kusinela"
+    },
+    "description": "Website for a Filipino Restaurant based in Milan.",
+    "skills": ["React", "JavaScript", "Tailwind", "HTML", "CSS"],
+    "image": "kusinela.png"
+  },
+  {
+    "title": "Spill",
+    "sourceCode": {
+      "text": "</>",
+      "link": "https://github.com/RussellShaneNavarez/SpillProject"
+    },
+    "description": "A Twitter clone built with Next.js & MongoDB.",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "MongoDB",
+      "Prisma"
+    ],
+    "image": "spill.png"
+  },
+  {
+    "title": "Weather",
+    "sourceCode": {
+      "text": "</>",
+      "link": "https://github.com/RussellShaneNavarez/RSNWeather"
+    },
+    "description": "Web Application with OpenWeather API.",
+    "skills": [
+      "Vue.js",
+      "JavaScript",
+      "Tailwind",
+      "API Rest",
+      "HTML",
+      "CSS"
+    ],
+    "image": "rsnweather.png"
+  }
+]

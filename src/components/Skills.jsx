@@ -29,9 +29,9 @@ export const Skills = () => {
     return (
         <div class='skills w-full'>
             <div className='py-6 sm:py-12 md:py-16 px-8 sm:px-16 md:px-20 lg:px-32'>
-                <h2 className='font-bold text-stone-200 text-4xl sm:text-4xl md:text-5xl lg:text-6xl'>Current technologies</h2>
-                <p className='text-sm sm:text-sm md:text-md lg:text-lg text-stone-400 font-normal py-2'>I'm proficient in a range of modern technologies that empower me to build highly functional solutions. These are some of my main technologies.</p>
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 py-4'>
+                <h2 className='font-bold text-stone-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl'>Current Technologies</h2>
+                <p className='text-sm sm:text-sm md:text-md lg:text-lg text-stone-400 font-medium py-2'>I'm proficient in a range of modern technologies that empower me to build highly functional solutions. These are some of my main technologies.</p>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 py-4 font-medium'>
                     <div className='tech'>
                         <div className='pr-[0.75rem]'>
                             <img src={angular} alt="Angular" width={50} />
@@ -106,7 +106,7 @@ export const Skills = () => {
                     </div>
                 </div>
                 {isVisible && (
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 pb-4'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-between gap-4 pb-4 font-medium'>
                     <div className='tech'>
                         <div className='pr-[0.75rem]'>
                             <img src={react} alt="React" width={50} />
@@ -173,7 +173,7 @@ export const Skills = () => {
                 </div>
                 )}
 
-                <button onClick={toggleVisibility} className='text-stone-400 hover:text-stone-500 w-full'>
+                <button onClick={toggleVisibility} className='text-stone-400 hover:text-stone-500 w-full font-medium'>
                     {isVisible ? 
                         <p>Hide ▲</p> : 
                         <p>In my personal projects, I also use... ▼</p>}
