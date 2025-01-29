@@ -6,7 +6,7 @@
       "link": "https://github.com/RussellShaneNavarez/russnvrz-dev"
     },
     "description": "Portfolio built using React & Tailwind CSS.",
-    "skills": ["React", "JavaScript", "Tailwind", "HTML", "CSS"],
+    "skills": ["React", "JavaScript", "Tailwind", "HTML", "CSS", "JSON"],
     "image": "portfolio.png"
   },
   {
